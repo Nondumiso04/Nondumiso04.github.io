@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Drake</title>
+
+<style>
+body{
+    background-color: rgb(218, 218, 218);
+}
+
+header {
+    background-color:black;
+}
+.positioned-image {
+  position: relative;
+    margin-left: 32%;
+    top:100%;
+    max-width: 100%;
+    
+    
+}
+.space{
+    height:80%
+}
+
+.Slogan{
+    color: white;
+   position: absolute;
+    top:35%;
+    font-size: 340%;
+    margin-left: 4vw;
+    z-index: 1; 
+}
+
+.red-word {
+    color: red;
+}
+.about{
+    font-size: 20px;
+    margin-left: 2%;
+}
+.image-1{
+    position: relative;
+    top:187%;
+    margin-left: 25%;
+    height: 75%;
+    width: 40%;
+    z-index: 1; 
+    box-shadow: -50px 0px 20px rgba(0, 0, 0, 0.3); 
+    max-width: 100%;
+    
+}
+.top-5-albums{
+ position: relative;
+    margin-left: 40%;
+    top:254%
+}
+.top5-para{
+    position: relative;
+    top:260%;
+    font-size: 20px;
+    margin-left: 2%;
+}
+.number-5-album{
+    position: relative;
+    margin-left: 2%;
+    top:320%
+}
+.image-2{
+    position: absolute;
+    top:260%;
+    margin-left: 25%;
+    height: 65%;
+    width: 40%;
+    z-index: 1; 
+    box-shadow: -50px 0px 20px rgba(0, 0, 0, 0.3); 
+    max-width: 100%;
+    
+
+}
+.take-care-para{
+    position: absolute;
+    top:330%;
+    font-size: 20px;
+    margin-left: 2%;
+
+}
+.number-4-album{
+    position: absolute;
+    margin-left: 2%;
+    top:365%
+}
+.image-3{
+    position: absolute;
+    top:375%;
+    margin-left: 25%;
+    height: 60%;
+    width: 40%;
+    z-index: 1; 
+    box-shadow: -50px 0px 20px rgba(0, 0, 0, 0.3); 
+}
+.views-para{
+    position: absolute;
+    top:435%;
+    font-size: 20px;
+    margin-left: 2%;
+}
+.number-3-album{
+    position: absolute;
+    margin-left: 2%;
+    top:465%
+}
+.image-4{
+    position: absolute;
+    top:477%;
+    margin-left: 25%;
+    height: 58%;
+    width: 40%;
+    z-index: 1; 
+    box-shadow: -50px 0px 20px rgba(0, 0, 0, 0.3); 
+}
+.scorpion-para{
+    position: absolute;
+    top:535%;
+    font-size: 20px;
+    margin-left: 2%;
+}
+.number-2-album{
+    position: absolute;
+    margin-left: 2%;
+    top:555%
+}
+.image-5{
+    position: absolute;
+    top:565%;
+    margin-left: 25%;
+    height: 57%;
+    width: 40%;
+    z-index: 1; 
+    box-shadow: -50px 0px 20px rgba(0, 0, 0, 0.3); 
+}
+.take-caree-para{
+    position: absolute;
+    top:623%;
+    font-size: 20px;
+    margin-left: 2%;
+}
+.number-1-album{
+    position: absolute;
+    margin-left: 2%;
+    top:644%
+}
+.image-6{
+    position: absolute;
+    top:655%;
+    margin-left: 25%;
+    height: 60%;
+    width: 40%;
+    z-index: 1; 
+    box-shadow: -50px 0px 20px rgba(0, 0, 0, 0.3); 
+}
+.lover-boy-para{
+    position: absolute;
+    top:713%;
+    font-size: 20px;
+    margin-left: 2%;
+}
+.top-5-songs{
+    position: absolute;
+    margin-left: 40%;
+    top:735%
+}
+.top5Songs-para{
+    position: absolute;
+    top:745%;
+    font-size: 20px;
+    margin-left: 2%;
+}
+.number-5-song-Desc{
+    position: absolute;
+    margin-left: 40%;
+    top:755%;
+    
+}
+.audio-container-1 {
+    position: absolute;
+    top:775%; 
+    margin-left: 30%;
+    display: inline-block; 
+  }
+  .round-thumbnail-1 {
+    position: absolute; 
+    top: -90%;
+    margin-left: 92%;
+    border-radius: 50%; 
+    width: 30%; 
+    height: 150%; 
+    object-fit: cover; 
+    z-index: 1; 
+    box-shadow: 0px 25px 20px rgba(0, 0, 0, 0.5); 
+  }
+  .audio-player-1 {
+    z-index: 0; 
+    
+    
+  }
+  .number-4-song-Desc{
+    position: absolute;
+    margin-left: 40%;
+    top:790%;
+  }
+  .audio-container-2 {
+    position: absolute;
+    top:810%; 
+    margin-left: 30%;
+    display: inline-block; 
+  }
+  .round-thumbnail-2 {
+    position: absolute; 
+    top: -90%;
+    margin-left: 92%;
+    border-radius: 50%; 
+    width: 30%; 
+    height: 150%; 
+    object-fit: cover; 
+    z-index: 1; 
+    box-shadow: 0px 25px 20px rgba(0, 0, 0, 0.5);
+  }
+  .audio-player-2 {
+    z-index: 0; 
+  }
+  .number-3-song-Desc{
+    position: absolute;
+    margin-left: 40%;
+    top:825%;
+  }
+  .audio-container-3 {
+    position: absolute;
+    top:845%; 
+    margin-left: 30%;
+    display: inline-block; 
+  }
+  .round-thumbnail-3 {
+    position: absolute; 
+    top: -90%;
+    margin-left: 92%;
+    border-radius: 50%; 
+    width: 30%; 
+    height: 150%; 
+    object-fit: cover; 
+    z-index: 1; 
+    box-shadow: 0px 25px 20px rgba(0, 0, 0, 0.5);
+  }
+  .audio-player-3 {
+    z-index: 0; 
+  }
+  .number-2-song-Desc{
+    position: absolute;
+    margin-left: 40%;
+    top:860%;
+  }
+  .audio-container-4 {
+    position: absolute;
+    top:880%; 
+    margin-left: 30%;
+    display: inline-block; 
+  }
+  .round-thumbnail-4 {
+    position: absolute; 
+    top: -90%;
+    margin-left: 92%;
+    border-radius: 50%; 
+    width: 30%; 
+    height: 150%; 
+    object-fit: cover; 
+    z-index: 1; 
+    box-shadow: 0px 25px 20px rgba(0, 0, 0, 0.5);
+  }
+  .audio-player-4 {
+    z-index: 0; 
+  }
+  .number-1-song-Desc{
+    position: absolute;
+    margin-left: 40%;
+    top:895%;
+  }
+  .audio-container-5 {
+    position: absolute;
+    top:915%; 
+    margin-left: 30%;
+    display: inline-block; 
+  }
+  .round-thumbnail-5 {
+    position: absolute; 
+    top: -90%;
+    margin-left: 92%;
+    border-radius: 50%; 
+    width: 30%; 
+    height: 150%; 
+    object-fit: cover; 
+    z-index: 1; 
+    box-shadow: 0px 25px 20px rgba(0, 0, 0, 0.5);
+  }
+  .audio-player-5 {
+    z-index: 0; 
+  }
+  .navbar{
+    overflow: hidden;
+    z-index: 1;
+    position: absolute; /* Adjust according to your layout */
+    top: 0; /* Adjust according to your layout */
+    left: 0; /* Adjust according to your layout */
+    width: 100%; /* Adjust according to your layout */
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: right; /* Horizontally center the items */
+  }
+  .navbar a{
+      color: white;
+       padding: 14px 20px;
+       text-decoration: none;
+  }
+  .navbar a:hover{
+    color:red;
+  }
+  .connect{
+    position: absolute;
+    top:930%;
+  }
+  .custom-link-1 {
+    text-decoration: none;
+    position: absolute;
+    top:673%;
+    left:2%;
+    width: 27%;
+    height: 40%;
+  }
+  .custom-button-1 {
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top:673%;
+    left:2%;
+    width: 27%;
+    height: 40%;
+    border-radius: 50%;
+    box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.5);
+    
+  }
+  .custom-link-2 {
+    text-decoration: none;
+    position: absolute;
+    top:673%;
+    left:10%;
+    width: 27%;
+    height: 40%;
+  }
+  .custom-button-2 {
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top:673%;
+    left:10%;
+    width: 27%;
+    height: 40%;
+    border-radius: 50%;
+    box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.5);
+    
+  }
+  .custom-link-3 {
+    text-decoration: none;
+    position: absolute;
+    top:673%;
+    left:18%;
+    width:27%;
+    height: 40%;
+  }
+  .custom-button-3 {
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top:673%;
+    left:18%;
+    width: 27%;
+    height: 40%;
+    border-radius: 50%;
+    box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.5);
+    
+  }
+  .space2{
+    position: absolute;
+    top:970%;
+    color:  rgb(218, 218, 218);
+  }
+  
+ 
+
+</style>
+
+</head>
+
+
+
+<body>
+   
+    <header>
+        
+        <div class="navbar">
+            <a href="#section1">Home</a>
+            <a href="#section2">About</a>
+            <a href="#section3">Albums</a>
+            <a href="#section4">Songs</a>
+            <a href="#section5">Connect</a>
+        </div>
+
+        <section id="section1">
+
+            <div class="Slogan">
+                <h1>Catch the Drake <span class="red-word">Vibe</span></h1>
+                <h1>Dive into His Musical <span class="red-word">Realm!!</span></h1>
+            </div>
+    
+         <img src="pictures/Drake-Its-Been-A-Blur-Tour-1-820x820.webp" alt="..." class="positioned-image">
+          <div class="space">  
+         </div>
+
+        </section>
+
+       
+    </header>
+
+    <section id="section2">
+
+        <h1 >About The author</h1>
+       <p class="about">
+         Hey there! I'm Dumi, and I've been into Drake's music since my brother introduced me to it back in the day.
+         One track that really stuck with us was <a href="https://en.wikipedia.org/wiki/Best_I_Ever_Had_(Drake_song)"target="_blank">"Best I Ever Had"</a> , which we'd blast and dance to in 2010. Ever since
+          then, Drake's tunes have been a big part of my life, accompanying me through all sorts of moments. Stick around 
+          as I reminisce about those good times and explore why Drake's music means so much to me.In this article, I'll be discussing 
+          some of my favourite albums and top songs.Let's dive in!
+        </p>
+    
+      <img src="pictures/drake-calls-out-tweet-and-deleters-you-guys-make--5-758-1702928412-1_big.jpg" alt="..." class="image-1">
+
+    </section>
+
+    
+
+    <section id="section3">
+
+        <h1 class="top-5-albums">
+            Top 5 albums
+        </h2>
+
+        <p class="top5-para">
+            I very much love all drake's albums, Picking just five favorites is tough, but I've managed to narrow it down. Check out my top five Drake albums!
+        </p>
+    
+        <h2 class="number-5-album">5.Views(2016)</h2>
+    
+        <img src="pictures/views.jpg" alt="..." class="image-2">
+    
+        <p class="take-care-para">
+            Despite receiving mixed reviews from critics, Drake's album "Views," released in 2016, proved to be a commercial juggernaut.
+            Tracks like "Hotline Bling," "One Dance," and "Controlla" dominated the charts, solidifying Drake's status as a powerhouse 
+            in the music industry. The album's diverse range of sounds, from dancehall-infused beats to introspective ballads, captured 
+            the essence of Drake's multifaceted style and resonated with fans worldwide. The title "Views" pays homage to Drake's hometown 
+            of Toronto, providing listeners with a glimpse into his personal experiences and reflections on fame, relationships, and success.
+             Personally, "One Dance" holds a special place in my heart as my favorite track from the album. Back in grade 9, my friends and I
+              used to dance to it a lot sparking moments of pure joy and connection that linger in my memory.
+        </p>
+
+        <h2 class="number-4-album">4.Nothing Was The Same(2013)</h2>
+
+     <img src="pictures/nothing.webp" alt="..." class="image-3">
+
+      <p class="views-para">
+        this album is packed with hits like "Started from the Bottom," "Hold On, We're Going Home," and "Worst Behavior," which are all timeless
+         classics.Personally, my absolute favorites from the album are "From Time," "Hold On," and "Worst Behavior." Interestingly, "Worst 
+         Behavior" holds a special place in my heart as my brothers and I used to groove to it a lot, creating cherished memories. Another 
+         track that I love is "Pound Cake," as it brings back a flood of nostalgia and memories. "Nothing Was the Same" perfectly captures
+          Drake's introspective lyricism and emotive delivery, as he navigates themes of success, relationships, and personal growth.The
+           album's atmospheric beats and melodic hooks create a cohesive sonic landscape, drawing listeners in with each track
+        </p>
+
+        <h2 class="number-3-album">3.Scorpion(2018)</h2>
+
+       <img src="pictures/Scorpion.jpg" alt="..." class="image-4">
+
+       <p class="scorpion-para">
+         Despite some people saying it's a bit long and all over the place, Drake's album "Scorpion," dropped in 2018, was huge in the
+         music scene. Tracks like "God's Plan," "Nice for What," and "In My Feelings" took over the charts and became instant hits.
+          This double album showed off Drake's range, with deep, introspective jams mixed in with high-energy bangers. And let's not
+           forget, Drake got real personal, talking about his love life and dealing with fame. It's just more proof of his storytelling 
+           skills.
+        </p>
+
+        <h2 class="number-2-album">2.Take care(2011)</h2>
+
+        <img src="pictures/take care.jpg" alt="..." class="image-5">
+
+        <p class="take-caree-para">
+         I think Drake's "Take Care" album, released in 2011, hits diferent for me. It blends introspective lyrics,
+         atmospheric production, and emotional depth in a way that truly resonates with me. My favorite songs on this album 
+         are <a href="https://en.wikipedia.org/wiki/Best_I_Ever_Had_(Drake_song)">"Doing It Wrong"</a> and
+          <a href="https://en.wikipedia.org/wiki/Best_I_Ever_Had_(Drake_song)">"Make Me Proud ft Nicki Minaj"</a>  
+          Tracks like "Marvins Room" and "Take Care" became instant classics, showcasing Drake's versatility
+          and artistry. With collaborations from artists like Rihanna and The Weeknd, "Take Care" remains a defining moment in 
+          Drake's discography, solidifying his place in the music industry.
+        </p>
+
+       <h2 class="number-1-album">1.Certiied Lover Boy(2021)</h2>
+
+        <img src="pictures/Drake_-_Certified_Lover_Boy.png" alt="..." class="image-6">
+
+       <p class="lover-boy-para">
+         Certified Lover Boy" really dives into themes that resonate with me – love, relationships, and success. Tracks like 
+         "Way 2 Sexy," "Girls Want Girls," and "Knife Talk" perfectly capture Drake's signature style. But my absolute favorite
+         from the album is "Love All" featuring Jay-Z. It just hits different, adding another layer to the album's exploration of 
+         love and success. Overall, "Certified Lover Boy" shows why Drake remains at the top of the game, consistently delivering 
+         tracks that speak to listeners on a personal level.
+
+        </p>
+
+    </section>
+
+    <section id="section4">
+
+        <h1 class="top-5-songs">
+            Top 5 songs
+        </h2>
+
+
+    </section>
+
+
+    <p class="top5Songs-para">
+        I love all Drake's songs BUT This is my Top 5,ENJOY!!!
+    </p>
+
+    <h2 class="number-5-song-Desc">
+        5.Teenage fever
+    </h2>
+
+    <div class="audio-container-1">
+        <img src="pictures/teenage-fever.jpg" alt="Thumbnail Image" class="round-thumbnail-1">
+        <audio controls class="audio-player-1">
+          <source src="music/drake_teenage_fever_mp3_40237.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+   </div>
+
+   <h2 class="number-4-song-Desc">
+       4.Spin' Bout You
+    </h2>
+
+    <div class="audio-container-2">
+        <img src="pictures/spiin-bout-you.png" alt="Thumbnail Image" class="round-thumbnail-2">
+        <audio controls class="audio-player-2">
+          <source src="music/spin_bout_u_mp3_40081.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+   </div>
+
+   <h2 class="number-3-song-Desc">
+      3.Miss Me
+    </h2>
+
+  <div class="audio-container-3">
+        <img src="pictures/miss-me.jpg" alt="Thumbnail Image" class="round-thumbnail-3">
+        <audio controls class="audio-player-3">
+         <source src="music/drake_miss_me_thank_me_later_mp3_40002.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+   </div>
+
+   <h2 class="number-2-song-Desc">
+       2.Jungle
+    </h2>
+
+    <div class="audio-container-4">
+        <img src="pictures/jungle3.jpg" alt="Thumbnail Image" class="round-thumbnail-4">
+        <audio controls class="audio-player-4">
+         <source src="music/jungle_mp3_39941.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+   </div>
+
+   <h2 class="number-1-song-Desc">
+      1.Love All
+    </h2>
+
+    <div class="audio-container-5">
+        <img src="pictures/Drake_-_Certified_Lover_Boy.png" alt="Thumbnail Image" class="round-thumbnail-5">
+        <audio controls class="audio-player-5">
+         <source src="music/drake_love_all_audio_ft._jay-z_mp3_2429.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+   </div>
+
+   <section id="section5">
+
+       <h2 class="connect">
+          connect with Drake here:
+       </h2>
+    
+       <a href="https://www.youtube.com/@DrakeOfficial" target="_blank" class="custom-link-1">
+           <img src="pictures/youtube.jpg" alt="Button Image" class="custom-button-1">
+       </a>
+
+       <a href="https://web.facebook.com/Drake" target="_blank" class="custom-link-2">
+           <img src="pictures/facebook.png" alt="Button Image" class="custom-button-2">
+       </a>
+
+        <a href="https://www.instagram.com/champagnepapi/?hl=en" target="_blank" class="custom-link-3">
+           <img src="pictures/Instagram-Feature-2.jpg" alt="Button Image" class="custom-button-3">
+        </a>
+
+   </section>
+
+   <div class="space2">
+    <h5>the end</h5>
+   </div>
+
+  
+
+
+
+
+      
+
+
+</body>
+</html>
+
+
+
+
+
